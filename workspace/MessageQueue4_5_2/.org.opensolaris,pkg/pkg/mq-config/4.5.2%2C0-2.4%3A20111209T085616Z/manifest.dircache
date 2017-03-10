@@ -1,0 +1,6 @@
+dir path=etc/mq 
+dir path=etc 
+dir path=var 
+dir path=etc/mq/registry 
+dir path=etc/mq/xml/template 
+dir path=etc/mq/xml 

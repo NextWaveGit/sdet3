@@ -1,0 +1,10 @@
+file f6a953495ae4976b3f8728f26b9baf38ed188c28 chash=5c1b14655e2422032fbf59f7830f6440a5b0418c group=sys mode=0744 owner=root path=mq/bin/imqsvcadmin.exe pkg.csize=4369 pkg.size=24576
+file fa35446cb020e162b82b29e3f3257823204a46f4 chash=a0332a097391f1d562cf12977697878d81770bcc group=sys mode=0744 owner=root path=mq/bin/imqbrokersvc.exe pkg.csize=10937 pkg.size=36864
+file 0e7d54d36601147a40586c3690d1c09ce2d588f0 chash=2009ee22f1f9a4ed378f47f69a19f90e032ce4a1 group=sys mode=0744 owner=root path=mq/bin/imqdbmgr.exe pkg.csize=6062 pkg.size=24576
+file 3ec96467862a04d940653c236397dac51f4f1ce2 chash=cc2473c75d90dd2ff52637169a088fb0759ef65e group=sys mode=0744 owner=root path=mq/bin/imqcmd.exe pkg.csize=5930 pkg.size=24576
+file 9dc2dfca41897b7fb01c56d3a3cddef4e8ee5964 chash=f8d036d6dc07df15559210ec50b629aa79926151 group=sys mode=0744 owner=root path=mq/bin/imqusermgr.exe pkg.csize=6000 pkg.size=24576
+file 7b85d61df0094a84e92bc177a786a5d4daa391e5 chash=034fded1524ce4901277e9631d193ce377a1bff3 group=sys mode=0744 owner=root path=mq/bin/imqadmin.exe pkg.csize=5957 pkg.size=24576
+file 81a56b4fa6d3b2472983ca1bcbe365fa70808310 chash=0fb45021294c4e0010e299d6ae7cce37d89c45eb group=sys mode=0744 owner=root path=mq/bin/imqobjmgr.exe pkg.csize=5932 pkg.size=24576
+file 10b21ebff4624ab31c8ec7d2c269c29a1bad08ad chash=0a562be65e313774068e9fc35b47c08cfbad3c24 group=sys mode=0744 owner=root path=mq/bin/imqkeytool.exe pkg.csize=6672 pkg.size=28672
+file af4d53b568f999265b7dfe45ccfdf21cc3b8dfd7 chash=f7b853b0e7a1ad7c2e64d899e5cdc97b20cfcfc3 group=sys mode=0744 owner=root path=mq/bin/imqbrokerd.exe pkg.csize=6136 pkg.size=28672
+file 7937e6ce62a1a6fb395633f63faa8e46d7210f09 chash=29c5c9339944f26d8a940060762f392f4e4974bb group=sys mode=0744 owner=root path=mq/bin/imqbridgemgr.exe pkg.csize=5912 pkg.size=24576

@@ -1,0 +1,22 @@
+set name=fmri value=pkg:/mq-config@4.5.2,0-2.4:20111209T085616Z
+set name=pkg.maintainer_url value=http://mq.java.net/
+set name=info.classification value=":Message-Oriented Middleware"
+set name=pkg.detailed_url value=http://mq.java.net/about.html
+set name=pkg.summary value="Message Queue Configuration"
+set name=pkg.upstream_url value=http://mq.java.net/
+set name=pkg.description value="Configuration files of the Message Queue product.  Message Queue (MQ) is an enterprise quality, production ready, scalable messaging server.  It provides a complete Java Message Service (JMS) implementation for message oriented system integration.  In addition, Message Queue provides the additional enterprise features that are necessary for enterprise deployments, large and small."
+set name=info.source_url value=http://mq.java.net/downloads.html
+depend fmri=pkg:/mq-server@4.5.2 type=require
+file bfd21b58b13db94bc3f4114628413d79b81d1f82 chash=7040f43c14bdba58c9e1665c6587cefcf8200e1c group=sys mode=0744 owner=root path=etc/mq/passfile.sample pkg.csize=2077 pkg.size=5611
+dir group=sys mode=0755 owner=root path=var
+dir group=sys mode=0755 owner=root path=etc
+dir group=sys mode=0755 owner=root path=etc/mq
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license=CDDLv1.0 pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=root path=etc/mq/xml
+file 4a44b0d1712c65f964287a595d5e24736772f559 chash=e29575e44189b6a80ed7c161fcb9f48b442c1d51 group=sys mode=0744 owner=root path=etc/mq/xml/com.sun.cmm.mq.xml pkg.csize=2254 pkg.size=6619
+dir group=sys mode=0755 owner=root path=etc/mq/xml/template
+file 2e89a39ef79a624a56c7560206298ae81a1df943 chash=4c755aff6e14452513f8223718f0b08257205a2b group=sys mode=0744 owner=root path=etc/mq/xml/template/com.sun.cmm.mq.xml pkg.csize=2262 pkg.size=6641
+dir group=sys mode=0755 owner=root path=etc/mq/registry
+file 28d39d6823bb6ca94bdd36434ee475267df0ae30 chash=b6186d304b27e63601d79f34542892e85c0e5cd4 group=sys mode=0744 owner=root path=etc/mq/registry/servicetag.xml pkg.csize=1115 pkg.size=2261
+file e9d36e2a358b9a7fb48be715089048dfee2ce249 chash=46b49cbca55e1bf2a9705c931a8867efd7775c42 group=sys mode=0644 owner=nobody path=etc/mq/imqenv.conf pkg.csize=1244 pkg.size=2638 preserve=renamenew
+set name=publisher value=mq.oracle.com

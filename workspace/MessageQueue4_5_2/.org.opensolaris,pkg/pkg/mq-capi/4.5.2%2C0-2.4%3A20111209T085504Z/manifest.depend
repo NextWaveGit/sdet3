@@ -1,0 +1,2 @@
+depend fmri=pkg:/nss-nspr-jss-src@3.13.1 type=require
+depend fmri=pkg:/nss-libs@3.13.1 type=require

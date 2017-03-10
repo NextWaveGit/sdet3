@@ -1,0 +1,18 @@
+set name=fmri value=pkg:/nss-utils@3.13.1,0-1.0:20111201T005536Z
+set name=pkg.summary value="NSS Utility Tools"
+set name=pkg.description value="Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS #5, PKCS #7, PKCS #11, PKCS #12, S/MIME, X.509 v3 certificates, and other security standards. This package contains NSS 3.13.1."
+set name=info.classification value="Security Services and Tools"
+license 8843659fd99631ab1d9cde7550e6b647a61b3eef chash=36a1fe083b3fdc3980a3c2de9afabe1aaa1e499d license=LGPL2.1 pkg.csize=9515 pkg.size=26894
+depend fmri=nss-libs@3.13.1,0-1.0 type=require
+dir group=sys mode=0755 owner=nobody path=nss
+dir group=sys mode=0755 owner=nobody path=nss/bin
+file ad52eb2eda532f28731f50451550d63139d7d96d chash=90d6e52f7ab4355ef589f20e82e2f4030fb2bc40 group=sys mode=0755 owner=nobody path=nss/bin/addbuiltin.exe pkg.csize=6051 pkg.size=12800
+file 8484f6d5353c641bd9976e82fbf22cb66433e9de chash=b6ad121b5ab06d2483264218b407401e5f4d936f group=sys mode=0755 owner=nobody path=nss/bin/certutil.exe pkg.csize=42779 pkg.size=99328
+file d2f586aa115edd07a1b6f65c57e482aa4919ff4f chash=a1516ba8ec59ca88f0c189f0e7cd352e64867bf9 group=sys mode=0755 owner=nobody path=nss/bin/cmsutil.exe pkg.csize=13584 pkg.size=30720
+file 53ba4d6b84e5dc3d3c3ce4b563903d11968a545b chash=16251be1bee2472ed6eb089c47cc36f56bd5cf9f group=sys mode=0755 owner=nobody path=nss/bin/crlutil.exe pkg.csize=27718 pkg.size=57856
+file adbd6f56afd3ba3e20912897b014dc3ce17aa2e7 chash=f636838e183778730746e7474871b2eab3092f3c group=sys mode=0755 owner=nobody path=nss/bin/modutil.exe pkg.csize=45750 pkg.size=85504
+file d9bbbddfff17dff5e1731fbfbd2dce679f78c2fc chash=a695eb20ab0f609c95b0ddfcc8b929cba977046b group=sys mode=0755 owner=nobody path=nss/bin/pk12util.exe pkg.csize=20394 pkg.size=40448
+file 3f2bb90c961cb0fac006534921e6a53e046b12c7 chash=b63545e861f88c7b4e4b67784c6c313438364e63 group=sys mode=0755 owner=nobody path=nss/bin/signtool.exe pkg.csize=62792 pkg.size=120832
+file 8244796401c8ddc1bcef818d89b4de619dcfb327 chash=cb1151caf3a99bbeaafc2902bf0b292861a27105 group=sys mode=0755 owner=nobody path=nss/bin/signver.exe pkg.csize=11192 pkg.size=23552
+file 54a59c5caa4f111e7d586584fc982a52764a52ee chash=0301d0a0e54748345fd26616118838f8b7b75031 group=sys mode=0755 owner=nobody path=nss/bin/ssltap.exe pkg.csize=13742 pkg.size=31744
+set name=publisher value=mq.oracle.com

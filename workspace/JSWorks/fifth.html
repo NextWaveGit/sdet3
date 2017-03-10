@@ -1,0 +1,72 @@
+<html>
+
+    <head>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script type="text/javascript">
+        function fnValidate(){
+            uname = document.loginForm.uname.value;
+            console.log(uname);
+
+            if(uname.length <6){
+                alert("name must be greater than 6");
+                return false;
+            }else if(uname.chcar(0)==" "){
+                alert("no leading space");
+                return false;
+            }
+
+            return true;
+        }
+
+
+              function fnReset(){
+            uname = document.loginForm.uname.value;
+            console.log(uname);
+
+            if(uname.length <6){
+                alert("name must be greater than 6");
+                return false;
+            }else if(uname.chcar(0)==" "){
+                alert("no leading space");
+                return false;
+            }
+
+            return true;
+        }
+
+        </script>
+    
+    
+    
+    </head>
+
+    <body>
+        <h1> Login Form </h1>
+        <form name="loginForm" method="get"  onsubmit="return fnValidate()" >
+            <table class="table table-striped table-bordered">
+                <tr>
+                    <td>Enter User Name</td>
+                    <td><input type = "text" name ="uname" /></td>
+
+                </tr>
+
+                 <tr>
+                    <td>Enter Password</td>
+                    <td><input type = "text" name ="pwd" /></td>
+
+                </tr>
+
+
+                 <tr>
+                    <td><input type ="reset" /></td>
+                    <td><input type = "submit" value ="LOGIN" /></td>
+
+                </tr>
+            </table>
+
+
+        </form>
+    </body>
+</html>

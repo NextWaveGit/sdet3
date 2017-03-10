@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <script type = "text/javascript">
+        function Emp(){}
+
+        function fnGArray(){
+            arr = new Array(4);
+
+            arr[0]="ji";
+            arr[1] = true;
+            arr[2] = 123;
+            arr[3]=new Emp();
+
+            console.log("arr.length "+ arr.length)
+
+            for(temp in arr){
+                console.log(temp);
+            }
+        }
+
+
+
+        function fnSArray(){
+
+            arr = new Array(3);
+            arr[0]="Sun";
+            arr[1]="Moon";
+            arr[2]= "Mars";
+
+            console.log(arr);
+
+
+            arr.push("Wed");
+            console.log(arr);
+
+            arr.splice(1, 0, "Hell", "you", "are");
+            console.log(arr);
+        }
+
+
+
+
+        
+        </script>
+    </head>
+
+
+    <body>
+        <input type = "button" value = "Click G" onClick="fnGArray()" />
+
+        <input type = "button" value = "Click S" onClick="fnSArray()" />
+    </body>
+    </html>

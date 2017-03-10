@@ -1,0 +1,33 @@
+[filter]
+
+[property]
+send-uuid = True
+description = Message Queue (MQ) is an enterprise quality, production ready, scalable messaging server.  It provides a complete Java Message Service (JMS) implementation for message oriented system integration.  In addition, Message Queue provides the additional enterprise features that are necessary for enterprise deployments, large and small.
+title = Message Queue 4.5.2
+require-optional = False
+flush-content-cache-on-success = False
+display-copyrights = True
+preferred-authority = mq.oracle.com
+pursue-latest = True
+
+[variant]
+variant.opensolaris.zone = global
+
+[authority_mq.oracle.com]
+origin = http://pkg.oracle.com/layered/mq/dev/windows/
+ssl_key = None
+ssl_cert = None
+repo.related_uris = []
+mirrors = []
+repo.description = None
+repo.name = None
+repo.sort_policy = priority
+disabled = False
+alias = None
+prefix = mq.oracle.com
+repo.legal_uris = []
+repo.registered = False
+repo.registration_uri = None
+repo.collection_type = core
+repo.refresh_seconds = 14400
+

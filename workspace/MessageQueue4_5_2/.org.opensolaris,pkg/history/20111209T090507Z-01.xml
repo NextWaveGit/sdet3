@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ascii"?>
+<history><client name="pkg" version="1.122.2-54.2834"><args><arg><![CDATA[/net/jpgserv.us.oracle.com/export/disk6/external/ips/2.3-u4-b54/pkg-toolkit-sunos-sparc/pkg/bin/client.py]]></arg><arg><![CDATA[purge-history]]></arg></args></client><operation end_time="20111209T090508Z" name="purge-history" result="Succeeded" start_time="20111209T090507Z" userid="13645" username="nakata"/></history>

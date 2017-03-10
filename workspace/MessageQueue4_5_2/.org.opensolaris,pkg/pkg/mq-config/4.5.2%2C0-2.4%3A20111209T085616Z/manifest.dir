@@ -1,0 +1,6 @@
+dir group=sys mode=0755 owner=root path=var
+dir group=sys mode=0755 owner=root path=etc
+dir group=sys mode=0755 owner=root path=etc/mq
+dir group=sys mode=0755 owner=root path=etc/mq/xml
+dir group=sys mode=0755 owner=root path=etc/mq/xml/template
+dir group=sys mode=0755 owner=root path=etc/mq/registry

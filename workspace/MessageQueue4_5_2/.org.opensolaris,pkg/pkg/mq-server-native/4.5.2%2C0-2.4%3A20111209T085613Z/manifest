@@ -1,0 +1,12 @@
+set name=fmri value=pkg:/mq-server-native@4.5.2,0-2.4:20111209T085613Z
+set name=pkg.maintainer_url value=http://mq.java.net/
+set name=info.classification value=":Message-Oriented Middleware"
+set name=pkg.detailed_url value=http://mq.java.net/about.html
+set name=pkg.summary value="Message Queue Server Native"
+set name=pkg.upstream_url value=http://mq.java.net/
+set name=pkg.description value="Platform dependent/native files needed by Message Queue core package.  Message Queue (MQ) is an enterprise quality, production ready, scalable messaging server.  It provides a complete Java Message Service (JMS) implementation for message oriented system integration.  In addition, Message Queue provides the additional enterprise features that are necessary for enterprise deployments, large and small."
+set name=info.source_url value=http://mq.java.net/downloads.html
+depend fmri=pkg:/mq-server@4.5.2 type=require
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license=CDDLv1.0 pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=root path=mq
+set name=publisher value=mq.oracle.com

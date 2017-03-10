@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <script type = "text/javascript">
+            function fnFirst(){
+                obj = new Object;
+                obj.a =10;
+                obj.b = 20;
+
+                console.log(obj.a)
+                console.log(obj.b)
+            }
+
+function Emp(empId, empName){
+    this.empId = empId;
+    this.empName = empName;
+
+    this.display = function(){
+        console.log(emp.empId);
+        console.log(emp.empName);
+        privateMethod();
+    }
+
+    var privateMethod= function(){}
+
+    Emp.prototype.myDisplay = function(){
+        console.log(emp.empId);
+        console.log(emp.empName);
+    }
+
+
+
+}
+
+
+
+            </script>
+
+    </head>
+    <body>
+        <script type = "text/javascript">
+        fnFirst();
+
+        emp = new Emp(101, 'Betty');
+
+        emp.display();
+
+        //emp.privateMethod();
+
+        emp.myDisplay();
+       // console.log(emp.empId);
+
+        </script>
+    </body>
+</html>

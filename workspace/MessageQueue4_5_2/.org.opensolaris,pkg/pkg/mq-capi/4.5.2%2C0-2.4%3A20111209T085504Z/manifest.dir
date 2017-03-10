@@ -1,0 +1,9 @@
+dir group=sys mode=0755 owner=root path=mq
+dir group=sys mode=0755 owner=root path=mq/lib
+dir group=sys mode=0755 owner=root path=mq/examples
+dir group=sys mode=0755 owner=root path=mq/include
+dir group=sys mode=0755 owner=root path=mq/examples/C
+dir group=sys mode=0755 owner=root path=mq/examples/C/producer_consumer
+dir group=sys mode=0755 owner=root path=mq/examples/C/request_reply
+dir group=sys mode=0755 owner=root path=mq/examples/C/producer_async_consumer
+dir group=sys mode=0755 owner=root path=mq/examples/C/tuxedo

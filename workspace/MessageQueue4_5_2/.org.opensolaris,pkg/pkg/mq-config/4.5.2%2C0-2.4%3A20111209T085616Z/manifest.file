@@ -1,0 +1,5 @@
+file bfd21b58b13db94bc3f4114628413d79b81d1f82 chash=7040f43c14bdba58c9e1665c6587cefcf8200e1c group=sys mode=0744 owner=root path=etc/mq/passfile.sample pkg.csize=2077 pkg.size=5611
+file 4a44b0d1712c65f964287a595d5e24736772f559 chash=e29575e44189b6a80ed7c161fcb9f48b442c1d51 group=sys mode=0744 owner=root path=etc/mq/xml/com.sun.cmm.mq.xml pkg.csize=2254 pkg.size=6619
+file 2e89a39ef79a624a56c7560206298ae81a1df943 chash=4c755aff6e14452513f8223718f0b08257205a2b group=sys mode=0744 owner=root path=etc/mq/xml/template/com.sun.cmm.mq.xml pkg.csize=2262 pkg.size=6641
+file 28d39d6823bb6ca94bdd36434ee475267df0ae30 chash=b6186d304b27e63601d79f34542892e85c0e5cd4 group=sys mode=0744 owner=root path=etc/mq/registry/servicetag.xml pkg.csize=1115 pkg.size=2261
+file e9d36e2a358b9a7fb48be715089048dfee2ce249 chash=46b49cbca55e1bf2a9705c931a8867efd7775c42 group=sys mode=0644 owner=nobody path=etc/mq/imqenv.conf pkg.csize=1244 pkg.size=2638 preserve=renamenew
